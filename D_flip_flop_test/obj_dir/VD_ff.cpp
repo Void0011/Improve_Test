@@ -61,7 +61,7 @@ static void _eval_initial_loop(VD_ff__Syms* __restrict vlSymsp) {
             Verilated::debug(1);
             __Vchange = VD_ff___024root___change_request(&(vlSymsp->TOP));
             Verilated::debug(__Vsaved_debug);
-            VL_FATAL_MT("/home/zhouzhk/Documents/Improve_Test/D_flip_flop_test/vsrc/D_ff.v", 1, "",
+            VL_FATAL_MT("/home/zhouzhk/Documents/Improve_Test/D_flip_flop_test/vsrc/D_ff.v", 3, "",
                 "Verilated model didn't DC converge\n"
                 "- See https://verilator.org/warn/DIDNOTCONVERGE");
         } else {
@@ -92,7 +92,7 @@ void VD_ff::eval_step() {
             Verilated::debug(1);
             __Vchange = VD_ff___024root___change_request(&(vlSymsp->TOP));
             Verilated::debug(__Vsaved_debug);
-            VL_FATAL_MT("/home/zhouzhk/Documents/Improve_Test/D_flip_flop_test/vsrc/D_ff.v", 1, "",
+            VL_FATAL_MT("/home/zhouzhk/Documents/Improve_Test/D_flip_flop_test/vsrc/D_ff.v", 3, "",
                 "Verilated model didn't converge\n"
                 "- See https://verilator.org/warn/DIDNOTCONVERGE");
         } else {
