@@ -32,7 +32,7 @@ wave:./waveform.vcd
 	@echo
 	@echo "***Build the waveform file"
 	$^
-$(GWAVE):$(VSRCS) $(CWSRCS)
+$(GWAVE):$(VSRCS) $(CSRCS)
 	@echo
 	@echo "***Verilating the .v***"
 	$(VERILATOR) $(VERILATOR_WAVES) \
